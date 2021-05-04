@@ -59,8 +59,8 @@
 		textarea{
 			resize: none;
 		}
-		input[type=submit]{
-			width: 100%;
+		input[type=submit], input[type=reset]{
+			width: 50%;
 			background-color: #E1AD01;
 			color: white;
 			padding: 14px 20px;
@@ -72,6 +72,10 @@
 			font-size: 1.125em;
 		}
 		input[type=submit]:hover{
+			background-color: #FADA5E;
+			color: #1245c;
+		}
+		input[type=reset]:hover{
 			background-color: #FADA5E;
 			color: #1245c;
 		}
@@ -105,7 +109,7 @@
 			<tbody>
 				<tr>
 					<td><img src="name.png" class="icons"><label class="customerinfo" for="fullname">Fullname</label></td>
-					<td><input type="text" id="fullname" name="fullname" size="30" placeholder="Type your Fullname" maxlength="50" autofocus required="">
+					<td><input type="text" id="fullname" name="fullname" size="30" placeholder="Type your Full name" maxlength="50" autofocus required="">
 					</td> <br>
 				</tr>
 				<tr>
@@ -294,6 +298,10 @@
 
 			<tfoot>
 				
+
+				<tr>
+						<th colspan="2"><input type="reset" id="btn1" value="Clear"></th>
+				</tr>
 
 				<tr>
 					<th colspan="2"><input type="submit" id="btn1" value="Submit Order Form"></th>
