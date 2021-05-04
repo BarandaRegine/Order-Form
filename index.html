@@ -79,7 +79,7 @@
 			border-collapse: collapse;
 			padding: 15px;
 		}
-		input[type=text], textarea, select{
+		input[type=text], input[type=number],textarea, select{
 			padding: 5px 15px;
 			margin: 8px 0;
 			display: inline-block;
@@ -105,20 +105,20 @@
 			<tbody>
 				<tr>
 					<td><img src="name.png" class="icons"><label class="customerinfo" for="fullname">Fullname</label></td>
-					<td><input type="text" id="fullname" name="fullname" size="30" placeholder="Type your Full name" maxlength="50" autofocus required="">
+					<td><input type="text" id="fullname" name="fullname" size="30" placeholder="Enter you Fullname" maxlength="50" autofocus required="">
 					</td> <br>
 				</tr>
 				<tr>
 					<td><img src="address.png" class="icons"><label class="customerinfo" for="address">Complete Address</label></td>
-					<td><input type="text" id="address" name="address" size="30" placeholder="Type your Complete Address" maxlength="70" required></td>
+					<td><input type="text" id="address" name="address" size="30" placeholder="Enter your Complete Address" maxlength="70" required></td>
 				</tr>
 				<tr>
 					<td><img src="phone.png" class="icons"><label class="customerinfo" for="contactNumber">Contact Number</label></td>
-					<td><input type="text" id="contactNumber" name="contactNumber" size="30" placeholder="Type your Contact Number" maxlength="20" required></td>
+					<td><input type="text" id="contactNumber" name="contactNumber" size="30" placeholder="Enter your Contact Number" maxlength="20" required></td>
 				</tr>
 				<tr>
 					<td><img src="email.png" class="icons"><label class="customerinfo" for="emailAddress">Email Address</label></td>
-					<td><input type="text" id="emailAddress" name="emailAddress" size="30" placeholder="Type your Email Address" maxlength="50" required></td>
+					<td><input type="text" id="emailAddress" name="emailAddress" size="30" placeholder="Enter your Email Address" maxlength="50" required></td>
 				</tr>
 				<tr>
 					<td><img src="location.png" class="icons"><label class="customerinfo" for="placeDescription">How to get there <br>(place description)</label></td>
@@ -171,18 +171,7 @@
 						</select><br><br>
 
 						<label for="quantity">Quantity</label><br>
-						<select name="qty" id="qty" size="1">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-								<option value="9">9</option>
-								<option value="10">10</option>
-						</select><br><br>
+						<input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="1">
 					</td>
 				</tr>
 
@@ -211,19 +200,7 @@
 							<img src="pastacheese.jpg" class="icons"><label for="extraCheese">Extra Cheese</label> <br><br>
 
 						<label for="quantity">Quantity (per Box)</label><br>
-						<select name="qty" id="qty" size="1">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-								<option value="9">9</option>
-								<option value="10">10</option>
-
-						</select><br><br>
+						<input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="1">
 						
 
 					</td>
@@ -256,20 +233,9 @@
 						<input type="radio" id="sourCream" name="flavor" value="sourCream">
 						<label for="sourCream">Sour Cream</label><br><br>
 			
+		
 						<label for="quantity">Quantity</label><br>
-						<select name="qty" id="qty" size="1">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-								<option value="9">9</option>
-								<option value="10">10</option>
-
-						</select><br><br>
+						<input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="1">
 					</td>
 				</tr>
 
@@ -301,19 +267,7 @@
 						<label for="L">L</label><br><br>
 
 						<label for="quantity">Quantity</label><br>
-						<select name="qty" id="qty" size="1">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-								<option value="6">6</option>
-								<option value="7">7</option>
-								<option value="8">8</option>
-								<option value="9">9</option>
-								<option value="10">10</option>
-
-						</select><br><br>
+						<input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="1">
 					</td>
 				</tr>
 
